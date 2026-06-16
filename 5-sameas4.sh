@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "enter a user name : "
+read-s USER
+echo "enter a password : "
+read-s PAASWD
+echo " for $USER this is password:$PASSWD"
