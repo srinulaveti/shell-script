@@ -12,4 +12,4 @@ sleep 60 &
 echo "Process ID of last background command: $!"
 echo "the next command is true are false o or 1 to exit command :$?"
 sleep 60 &
-echo "the next command is true are false o or 1 to exit command :$?"
+echo "the previous commandtrue are false o or 1 to exit command :$?" 
