@@ -10,21 +10,22 @@ fi
 
 dnf install mysql -y
 
-if [ $? -eq 0 ]
+if [ $? -ne 0 ]
 then 
-echo " my sql installed sucesss"
+echo " my sql installed failed"
+exit 1
 
 else
-echo " mysql failed "
-if
+echo " mysql sucess "
+fi 
 
 dnf install git -y
 
-if [ $? -eq 0 ]
+if [ $? -ne 0 ] 
 then 
-echo " git installed sucessfully srinu"
+echo " git installed failed sreenu "
 exit 1
 else
-echo " git failed srinu"
+echo " git suceess srinu "
 fi
 
