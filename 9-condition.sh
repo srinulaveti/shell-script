@@ -1,9 +1,9 @@
 #!/bin/bash
 num1=$1
 num2=$2
-if [ $sum1 -gt $sum2 ]
+if [ $num1 -lt $num2 ]
 then
-    echo " it  $num1 is biggerthen $num2"
+echo " its $num small "
 else
-    echo "its small then num2 "
+echo " $num2 big "
 fi
