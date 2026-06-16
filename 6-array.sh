@@ -1,4 +1,4 @@
 #!/bin/bash
 MOVIES=("aa" "eega" "vikram")
 
-echo "first movie ${(0)}"
+echo "first movie ${MOVIES(0)}"
