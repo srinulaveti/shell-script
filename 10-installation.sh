@@ -18,3 +18,12 @@ else
 echo " mysql failed "
 if
 
+dnf instal git -y
+if [ $? eq 0 ]
+then 
+echo " git installed sucessfully srinu"
+exit 1
+else
+echo " git failed srinu"
+fi
+
