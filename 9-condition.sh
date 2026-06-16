@@ -1,5 +1,5 @@
 #!/bin/bash
-num=$1
+num1=$1
 num2=$2
 if [$num1 is -gt $num2]
 then
