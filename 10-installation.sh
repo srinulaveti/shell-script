@@ -1,5 +1,5 @@
 #!/bin/bash
-uid=(id -u)
+uid=$(id-u)
 if [ $uid -ne 0 ]
 then 
 echo  " run this script with root user"
