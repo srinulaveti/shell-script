@@ -5,5 +5,5 @@ if [ $num1 -lt $num2 ]
 then
 echo " its $num1 is small "
 else
-echo " $num2 big "
+echo " $num1 is big "
 fi
