@@ -6,7 +6,7 @@ fun(){
 
     trap 'fun {$LINENO} "$BASH_COMMAND"'ERR
 }
-if [$user -ne o]
+if [ $user -ne o ]
 then 
 echo " run the script with root user "
 exit 1
